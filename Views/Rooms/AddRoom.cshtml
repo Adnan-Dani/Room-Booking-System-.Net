@@ -1,0 +1,36 @@
+﻿@model Rooms
+@{
+    ViewData["Title"] = "AddRoom";
+}
+
+<div class="container my-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6"><h1>Add Rooms</h1></div>
+                <div class="col-6 text-end"><a asp-controller="Rooms" asp-action="AddRoom" class="btn btn-primary">Add Room</a></div>
+            </div>
+        </div>
+        <div class="col-12">
+            <form method="post">
+                <div class="mb-3">
+                    <label asp-for="room_no" class="form-label">Room No:</label>
+                    <input type="text" asp-for="room_no" class="form-control" aria-describedby="emailHelp">
+                   <span asp-validation-for="room_no" class="form-text text-danger"></span> 
+                </div>  
+                <div class="mb-3 d-grid">
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="submit" asp-controller="Rooms" asp-action="Index" class="btn">Back to Rooms List.</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}

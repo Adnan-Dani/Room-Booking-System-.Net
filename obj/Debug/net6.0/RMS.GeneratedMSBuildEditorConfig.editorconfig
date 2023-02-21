@@ -9,37 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RMS
 build_property.RootNamespace = RMS
-build_property.ProjectDir = C:\Users\Muhammad.Adnan\source\repos\RMS\RMS\
+build_property.ProjectDir = C:\Users\Adnan\Desktop\CodeHubSys\Room-Booking-System-.Net\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Muhammad.Adnan\source\repos\RMS\RMS
+build_property.MSBuildProjectDirectory = C:\Users\Adnan\Desktop\CodeHubSys\Room-Booking-System-.Net
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/Home/Index.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/Home/Privacy.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/Shared/Error.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Rooms/AddRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQWRkUm9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Rooms/BookRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQm9va1Jvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Rooms/editRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcZWRpdFJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/_ViewImports.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/_ViewStart.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad.Adnan/source/repos/RMS/RMS/Views/Shared/_Layout.cshtml]
+[C:/Users/Adnan/Desktop/CodeHubSys/Room-Booking-System-.Net/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dnbb9dyt9c

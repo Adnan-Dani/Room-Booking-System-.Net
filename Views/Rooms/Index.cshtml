@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Rooms> 
+@{
+    ViewData["Title"] = "Rooms";
+} 
+<div class="container my-4">
+
+    <div class="row">
+
+        <div class="col-12">
+            <div class="row">
+                <div class="col-6"><h1>Rooms</h1></div>
+                <div class="col-6 text-end"><a asp-controller="Rooms" asp-action="AddRoom" class="btn btn-primary">Add Room</a></div>
+            </div>
+        </div>
+        <div class="col-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#Id</th>
+                        <th scope="col">Room No</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var room in Model)
+                    {
+                        <tr>
+                            <td>@room.room_id</td>
+                            <td>@room.room_no</td>
+                            <td>
+                                <a asp-controller="Rooms" asp-action="bookRoom" asp-route-id="@room.room_id" class="btn btn-info mx-1">Book</a>
+                                <a asp-controller="Rooms" asp-action="editRoom" asp-route-id="@room.room_id" class="btn btn-success mx-1">Edit</a>
+                                <a asp-controller="Rooms" asp-action="deleteRoom" asp-route-id="@room.room_id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
