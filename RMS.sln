@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMS.Models", "..\RMS.Models
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMS.Utility", "..\RMS.Utility\RMS.Utility.csproj", "{EB0355D3-1F18-44AA-B070-9013C9485CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.DTOS", "..\RMS.DTOS\RMS.DTOS.csproj", "{3CFE69B3-5836-4DA2-9D01-AB0ABD1410AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMS.DTOS", "..\RMS.DTOS\RMS.DTOS.csproj", "{3CFE69B3-5836-4DA2-9D01-AB0ABD1410AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.NUnitTests.DataAccess", "..\RMS.NUnitTests\RMS.NUnitTests.DataAccess.csproj", "{78974FC6-B2EB-4168-9103-736E7827B402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3CFE69B3-5836-4DA2-9D01-AB0ABD1410AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFE69B3-5836-4DA2-9D01-AB0ABD1410AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFE69B3-5836-4DA2-9D01-AB0ABD1410AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78974FC6-B2EB-4168-9103-736E7827B402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78974FC6-B2EB-4168-9103-736E7827B402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78974FC6-B2EB-4168-9103-736E7827B402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78974FC6-B2EB-4168-9103-736E7827B402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

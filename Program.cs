@@ -23,12 +23,12 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddTransient<GlobalExceptionMiddleware>();
 
 // Logs Configuration
-builder.Host.UseSerilog((context, configuration) =>
-{
-    configuration.ReadFrom.Configuration(context.Configuration);
-});
-//var _logger = new LoggerConfiguration().WriteTo.File("C:\\Users\\Adnan\\Desktop\\CodeHubSys\\Room-Booking-System-.Net\\logs-.log", rollingInterval: RollingInterval.Day).CreateLogger();
-//builder.Logging.AddSerilog(_logger);
+//builder.Host.UseSerilog((context, configuration) =>
+//{
+//    configuration.ReadFrom.Configuration(context.Configuration);
+//});
+var _logger = new LoggerConfiguration().WriteTo.File("C:\\Users\\Adnan\\Desktop\\CodeHubSys\\Room-Booking-System-.Net\\logs-.log", rollingInterval: RollingInterval.Day).CreateLogger();
+builder.Logging.AddSerilog(_logger);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,7 +39,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseSerilogRequestLogging();
+//app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
